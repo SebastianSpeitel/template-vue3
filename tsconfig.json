@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "module": "ESNext",
+        "target": "ES2018",
+        "moduleResolution": "Node",
+        "lib": [
+            "ESNext",
+            "DOM"
+        ]
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}
