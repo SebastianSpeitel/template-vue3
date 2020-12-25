@@ -31,9 +31,9 @@ export default {
       __VUE_PROD_DEVTOOLS__: !production
     }),
     resolve(),
+    vue(),
     cjs(),
     ts(),
-    vue(),
     css({ extract: "bundle.css" }),
     production &&
       terser({
