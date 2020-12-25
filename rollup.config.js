@@ -14,7 +14,7 @@ export default {
   output: {
     format: "esm",
     dir: "build",
-    sourcemap: false && !production
+    sourcemap: !production
   },
   plugins: [
     copy({
