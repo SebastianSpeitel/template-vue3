@@ -1,9 +1,16 @@
 <template>
   <div>
-    <h1>Hi</h1>
+    <h1 v-text="message"></h1>
   </div>
 </template>
 
 <script lang="ts">
-export default { setup() {} };
+import { ref } from "vue";
+
+export default {
+  setup() {
+    const message = ref("Hi");
+    return { message };
+  }
+};
 </script>
