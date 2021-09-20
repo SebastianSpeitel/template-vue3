@@ -34,7 +34,7 @@ export default {
     vue(),
     cjs(),
     ts(),
-    css({ extract: "bundle.css" }),
+    css({ extract: "bundle.css", minimize: production }),
     production &&
       terser({
         module: true,
